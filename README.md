@@ -15,9 +15,13 @@ Get all links and their page titles from within the given domain on all depth le
 ### What is a depth level AKA crawl depth?
 
 Level 0: Main page (The domain, url you gave).
+
 Level 1: URLS to domain sub-pages gathered within the main page.
+
 Level 2: URLS to domain sub-pages gathered within the URLS to domain sub-pages gathered on the main page.
+
 Level 3: ... and so on.
+
 Level X: Initially unknown. It's the level where there is nothing else to get.
 
 ### Suggested depth:
@@ -30,11 +34,11 @@ Level X: Initially unknown. It's the level where there is nothing else to get.
 1. Just go with 'python3 web-crawler.py' and input your URL and crawl_depth in the console. 
 You will recieve your output as an json file inside this program directory.
 
-A. Input 'demo' to use demo settings (coded in settings_by_input()):
+- Input 'demo' to use demo settings (coded in settings_by_input()):
 		 DOMAIN =  'https://cyfrowa-wyprawka.org/'
 		 CRAWL_DEPTH = 10
 
-B. Input your actual desired URL and crawl depth:
+- Input your actual desired URL and crawl depth:
 		 fg.  'https://cyfrowa-wyprawka.org/'
 		 fg.  '10'
 
@@ -87,49 +91,42 @@ Getting links from level 0: domain page.
 There are at least 11 more valid links to get. We need to go deeper...
 
 Going into depth 1.
-- - - - - - - - - -
 Visited urls   :     21
 Gathered urls  :     11
 Total time     :      4 seconds
 There are at least 10 valid links to get. We need to go deeper...
 
 Going into depth 2.
-- - - - - - - - - -
 Visited urls   :     29
 Gathered urls  :     21
 Total time     :      6 seconds
 There are at least 8 valid links to get. We need to go deeper...
 
 Going into depth 3.
-- - - - - - - - - -
 Visited urls   :     37
 Gathered urls  :     29
 Total time     :      2 seconds
 There are at least 8 valid links to get. We need to go deeper...
 
 Going into depth 4.
-- - - - - - - - - -
 Visited urls   :     53
 Gathered urls  :     37
 Total time     :      2 seconds
 There are at least 16 valid links to get. We need to go deeper...
 
 Going into depth 5.
-- - - - - - - - - -
 Visited urls   :     61
 Gathered urls  :     53
 Total time     :     16 seconds
 There are at least 8 valid links to get. We need to go deeper...
 
 Going into depth 6.
-- - - - - - - - - -
 Visited urls   :     62
 Gathered urls  :     61
 Total time     :      2 seconds
 There are at least 1 valid links to get. We need to go deeper...
 
 Going into depth 7.
-- - - - - - - - - -
 Visited urls   :     62
 Gathered urls  :     62
 Total time     :      0 seconds
@@ -138,7 +135,6 @@ Nothing else to scrap.
  
 
 Full crawl repport:
-- - - - - - - - - -
 Depth level    :      8
 Visited urls   :     62
 Gathered urls  :     62
