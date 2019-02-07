@@ -83,63 +83,99 @@ You will recieve your output as an json file inside this program directory.
 Please enter:
 a) URL link to scrap ('fg. 'https://cyfrowa-wyprawka.org/') or
 b) 'demo' for demo example:
+
 https://cyfrowa-wyprawka.org/
+
 Please enter desired crawl depth (integer):10
 
 
 Getting links from level 0: domain page.
+
 There are at least 11 more valid links to get. We need to go deeper...
 
 Going into depth 1.
+
 Visited urls   :     21
+
 Gathered urls  :     11
+
 Total time     :      4 seconds
+
 There are at least 10 valid links to get. We need to go deeper...
 
 Going into depth 2.
+
 Visited urls   :     29
+
 Gathered urls  :     21
+
 Total time     :      6 seconds
+
 There are at least 8 valid links to get. We need to go deeper...
 
 Going into depth 3.
+
 Visited urls   :     37
+
 Gathered urls  :     29
+
 Total time     :      2 seconds
+
 There are at least 8 valid links to get. We need to go deeper...
 
 Going into depth 4.
+
 Visited urls   :     53
+
 Gathered urls  :     37
+
 Total time     :      2 seconds
+
 There are at least 16 valid links to get. We need to go deeper...
 
 Going into depth 5.
+
 Visited urls   :     61
+
 Gathered urls  :     53
+
 Total time     :     16 seconds
+
 There are at least 8 valid links to get. We need to go deeper...
 
 Going into depth 6.
+
 Visited urls   :     62
+
 Gathered urls  :     61
+
 Total time     :      2 seconds
+
 There are at least 1 valid links to get. We need to go deeper...
 
 Going into depth 7.
+
 Visited urls   :     62
+
 Gathered urls  :     62
+
 Total time     :      0 seconds
 
 Nothing else to scrap.
  
 
 Full crawl repport:
+
 Depth level    :      8
+
 Visited urls   :     62
+
 Gathered urls  :     62
+
 Next level urls:      0
+
 Total time     :     33 seconds
+
 Avrg time/link : 0.5323 seconds
 
 
