@@ -223,7 +223,7 @@ Twisted==18.9.0
 typed-ast==1.1.0
 unicodecsv==0.14.1
 urllib3==1.24.1
-validators==0.12.4
+validators==0.12.6
 w3lib==1.20.0
 wcwidth==0.1.7
 webencodings==0.5.1
